@@ -1,0 +1,70 @@
+body{
+    background-image: url(https://www.fonstola.ru/images/202004/fonstola.ru_383300.jpg);
+
+}
+h1{text-align: center;
+color: rgb(255, 255, 255);
+}
+h3{
+    color: grey;
+    font-size: 30px;
+}
+p{text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+b{text-align: center;}
+.centered-fieldset {
+    top: 250px ;
+       position: absolute;
+        z-index: 2;
+        background-color: aliceblue;
+        margin-top: 0%; 
+        margin-left: 37%;
+        box-sizing: border-box;
+    }
+        button{
+            font-weight: 900;
+            background-color: rgb(17, 0, 255);
+            color: #ffffff;
+            font-size: 15px;
+            padding: 20px 20px;
+            border-radius: 8px;
+            border: none;
+           width: 100%;
+            
+        }
+
+        input{
+            font-weight: 900;
+            background-color: rgb(255, 255, 255);
+            font-size: 15px;
+            padding:  10px;
+            border-radius: 5px;
+            border: solid 1px grey;
+            width: 500px; 
+            height: 50px;
+        }
+        input:hover{
+            background-color: rgb(197, 201, 231);
+            color: grey
+
+        }
+        .overlay {
+            background-color: rgba(255, 255, 255, 0.2);
+            width: 100px;
+            height: 100px;
+            box-sizing: border-box;
+            position: absolute;
+          
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            left: 0;
+          
+            z-index: 1;
+          }  
+        
+            
+
